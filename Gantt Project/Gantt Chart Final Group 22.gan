@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Embedded Systems Project" company="Group 22" webLink="http://" view-date="2018-09-28" view-index="0" gantt-divider-location="358" resource-divider-location="300" version="2.8.9" locale="en_US">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="188" order="0"/>
+        <field id="tpd4" name="Begin date" width="76" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="color.recent"><![CDATA[#cc0000 #ffcc33 #3333ff #f4f4f4 #00cc00 #cc00cc #009999 #cccccc #990099 #ffff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="194" name="Group Journal" color="#cc00cc" meeting="false" start="2018-10-01" duration="55" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true"/>
+        <task id="251" name="Initial Research &amp; Lab Work" color="#3333ff" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2018-10-01" duration="22" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+            <task id="0" name="Lab 1 Preparation" color="#3333ff" meeting="false" start="2018-10-01" duration="8" complete="0" thirdDate="2018-10-17" thirdDate-constraint="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" name="Lab 1: Motor Characterisation" color="#3333ff" meeting="true" start="2018-10-11" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" name="Lab 2 Preparation" color="#3333ff" meeting="false" start="2018-10-08" duration="8" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="41" name="Line Sensors Pre-Lab work" color="#3333ff" meeting="false" start="2018-10-18" duration="1" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+                <task id="374" name="Build, test and modify circuit to achieve typical datasheet characteristics" color="#3333ff" meeting="false" start="2018-10-18" duration="1" complete="0" thirdDate="2018-10-18" thirdDate-constraint="0" expand="true"/>
+                <task id="375" name="design the sensor circuit breadboard and veroboard schematic on suitable software" color="#3333ff" meeting="false" start="2018-10-18" duration="1" complete="0" thirdDate="2018-10-18" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="8" name="Lab 2: Line-sensing" color="#3333ff" meeting="true" start="2018-10-19" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="47" type="2" difference="0" hardness="Strong"/>
+                <depend id="49" type="2" difference="0" hardness="Strong"/>
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="DR1: Motor Characterisation" color="#3333ff" meeting="false" start="2018-10-11" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="DR1: Load Measurements" color="#3333ff" meeting="false" start="2018-10-11" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" name="DR1: Gear Ratio Selection" color="#3333ff" meeting="false" start="2018-10-19" duration="3" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="394" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="358" name="DR1 report completion" color="#3333ff" meeting="false" start="2018-10-24" duration="5" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true">
+                <task id="391" name="DR1 Final Submission" color="#3333ff" meeting="true" start="2018-10-31" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true"/>
+                <task id="394" name="DR1 Draft" color="#3333ff" meeting="true" start="2018-10-24" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                    <depend id="395" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="395" name="DR1 Review and Amendments" color="#3333ff" meeting="false" start="2018-10-24" duration="5" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                    <depend id="391" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="271" name="Research Phase" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-09-27" thirdDate-constraint="0" expand="true">
+                <depend id="327" type="2" difference="0" hardness="Strong"/>
+                <task id="47" name="Software Approach Research" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                    <depend id="74" type="2" difference="0" hardness="Strong"/>
+                    <task id="476" name="Functinal Summary" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-09-28" thirdDate-constraint="0" expand="true"/>
+                    <task id="479" name="Software constraints list" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+                    <task id="482" name="Context Diagram" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="49" name="Line sensors" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                    <depend id="76" type="2" difference="0" hardness="Strong"/>
+                    <task id="367" name="Charicterize different sensor components indiviual" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+                    <task id="369" name="test the suitable combinations under different criteria conditions" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+                    <task id="418" name="Criteria list of measurements" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+                    <task id="423" name="Background noise" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="51" name="Non Line-sensors Research" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                    <depend id="76" type="2" difference="0" hardness="Strong"/>
+                    <task id="366" name="List other than existing sensors suitable for speed sensing" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+                    <task id="390" name="criteria of non-line sensors" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="52" name="Control Algorithim Research" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                    <depend id="78" type="2" difference="0" hardness="Strong"/>
+                    <task id="378" name="Criteria of control algorithim" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+                    <task id="383" name="Buggy control system familirzation" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-09-18" thirdDate-constraint="0" expand="true"/>
+                    <task id="470" name="Proortional and PID controllers" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="410" name="Reseacrch Hardware" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                    <task id="414" name="Create chassis criteria list" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true"/>
+                    <task id="415" name="Solidworks familirization" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+        </task>
+        <task id="327" name="Design Phase" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-08" thirdDate-constraint="0" expand="true">
+            <task id="74" name="Software Functionality Design" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+                <task id="461" name="Case Diagrams" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true"/>
+                <task id="464" name="Case Descriptions" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true"/>
+                <task id="467" name="Object specifications" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="76" name="Sensor Circuit Design" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+                <task id="429" name="Find required current and voltage" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true"/>
+                <task id="78" name="Design control measures to avoid noise" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="444" name="Decide which non line sensor useful" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="441" name="Control Alogorithim Design" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                <task id="447" name="Propose sensor implementation" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true"/>
+                <task id="84" name="Implement algorithim" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="452" name="Chassis design" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                <task id="455" name="Material choice" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true"/>
+                <task id="458" name="2D Drwaings" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="44" name="DR2 First Draft" color="#00cc00" meeting="true" start="2018-11-21" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+            <depend id="346" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="346" name="DR2 Review and Amendments" color="#00cc00" meeting="false" start="2018-11-21" duration="4" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+            <depend id="352" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="352" name="DR2 Final Submission" color="#00cc00" meeting="true" start="2018-11-27" duration="0" complete="0" thirdDate="2018-10-22" thirdDate-constraint="0" expand="true">
+            <depend id="59" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="59" name="Start Proposal Draft" color="#990099" meeting="false" start="2018-11-27" duration="12" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Marlon A. Guanoluisa Pozo" function="3" contacts="alexis2612@hotmail.es" phone="07926206418"/>
+        <resource id="1" name="Aarambh Sinha" function="1" contacts="aarambh.sinha@gmail.com" phone="07720853721"/>
+        <resource id="2" name="Abdullah Ahmed Akhtar" function="3" contacts="abdullahaakhtar924@gmail.com" phone="07424594460"/>
+        <resource id="3" name="Osama Othman" function="2" contacts="elsayedosama7@gmail.com" phone="07577641686"/>
+        <resource id="4" name="Subhi Al Sous" function="2" contacts="subhialsous@gmail.com" phone="07449610631"/>
+    </resources>
+    <allocations>
+        <allocation task-id="194" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="251" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="476" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="479" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="482" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="74" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="461" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="464" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="467" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="346" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="59" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="194" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="251" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="374" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="375" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="367" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="369" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="418" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="423" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="390" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="429" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="444" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="346" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="194" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="251" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="410" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="414" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="415" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="452" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="455" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="458" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="346" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="194" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="251" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="374" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="375" resource-id="3" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="367" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="369" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="418" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="423" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="366" resource-id="3" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="429" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="444" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="346" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="194" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="251" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="375" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="395" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="378" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="383" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="470" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="441" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="447" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="84" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="346" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="4" function="2" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="Events Coordinator "/>
+        <role id="2" name="Software Team"/>
+        <role id="3" name="Hardware Team"/>
+        <role id="4" name=""/>
+    </roles>
+</project>

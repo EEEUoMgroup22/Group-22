@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Embedded Systems Project" company="Group 22" webLink="http://" view-date="2018-09-26" view-index="1" gantt-divider-location="358" resource-divider-location="300" version="2.8.9" locale="en_US">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="192" order="0"/>
+        <field id="tpd4" name="Begin date" width="74" order="1"/>
+        <field id="tpd5" name="End date" width="73" order="2"/>
+        <option id="color.recent"><![CDATA[#f4f4f4 #00cc00 #ffcc33 #cc0000 #3333ff #cc00cc #009999 #cccccc #990099 #ffff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="194" name="Group Journal" color="#cc00cc" meeting="false" start="2018-10-01" duration="55" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true"/>
+        <task id="251" name="Initial Research &amp; Lab Work" color="#3333ff" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2018-10-01" duration="22" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+            <task id="0" name="Lab 1 Preparation" color="#3333ff" meeting="false" start="2018-10-01" duration="8" complete="0" thirdDate="2018-10-17" thirdDate-constraint="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" name="Lab 1: Motor Characterisation" color="#3333ff" meeting="true" start="2018-10-11" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" name="Lab 2 Preparation" color="#3333ff" meeting="false" start="2018-10-08" duration="8" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="41" name="Line Sensors Pre-Lab work" color="#3333ff" meeting="false" start="2018-10-18" duration="1" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" name="Lab 2: Line-sensing" color="#3333ff" meeting="true" start="2018-10-19" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="47" type="2" difference="0" hardness="Strong"/>
+                <depend id="49" type="2" difference="0" hardness="Strong"/>
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+                <depend id="53" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="DR1: Motor Characterisation" color="#3333ff" meeting="false" start="2018-10-11" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="DR1: Load Measurements" color="#3333ff" meeting="false" start="2018-10-11" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" name="DR1: Gear Ratio Selection" color="#3333ff" meeting="false" start="2018-10-19" duration="3" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="DR1 Draft" color="#3333ff" meeting="true" start="2018-10-24" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" name="DR1 Review and Amendments" color="#3333ff" meeting="false" start="2018-10-24" duration="5" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" name="DR1 Final Submission" color="#3333ff" meeting="true" start="2018-10-31" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="271" name="Research Phase" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-09-27" thirdDate-constraint="0" expand="true">
+            <depend id="327" type="2" difference="0" hardness="Strong"/>
+            <task id="47" name="Software Approach Research" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="74" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="49" name="Sensor Comparison" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="76" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="51" name="Non Line-sensors Research" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="76" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="52" name="Control Algorithim Research" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="78" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="53" name="Solidworks familiarization" color="#cc0000" meeting="false" start="2018-10-19" duration="6" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="84" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="327" name="Design Phase" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-08" thirdDate-constraint="0" expand="true">
+            <task id="74" name="Software Functionality Design" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="76" name="Sensor Circuit Design" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="78" name="Control algorithim characterisation" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="84" name="Chassis Design" color="#ffcc33" meeting="false" start="2018-10-29" duration="17" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="44" name="DR2 Draft" color="#00cc00" meeting="true" start="2018-11-21" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+            <depend id="346" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="346" name="DR2 Review and Amendments" color="#00cc00" meeting="false" start="2018-11-21" duration="4" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+            <depend id="352" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="352" name="DR2 Final Submission" color="#00cc00" meeting="true" start="2018-11-27" duration="0" complete="0" thirdDate="2018-10-22" thirdDate-constraint="0" expand="true">
+            <depend id="59" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="59" name="Start Proposal Draft" color="#990099" meeting="false" start="2018-11-27" duration="12" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Marlon A. Guanoluisa Pozo" function="3" contacts="alexis2612@hotmail.es" phone="07926206418"/>
+        <resource id="1" name="Aarambh Sinha" function="1" contacts="aarambh.sinha@gmail.com" phone="07720853721"/>
+        <resource id="2" name="Abdullah Ahmed Akhtar" function="3" contacts="abdullahaakhtar924@gmail.com" phone="07424594460"/>
+        <resource id="3" name="Osama Othman" function="2" contacts="elsayedosama7@gmail.com" phone="07577641686"/>
+        <resource id="4" name="Subhi Al Sous" function="2" contacts="subhialsous@gmail.com" phone="07449610631"/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="Events Coordinator "/>
+        <role id="2" name="Software Team"/>
+        <role id="3" name="Hardware Team"/>
+        <role id="4" name=""/>
+    </roles>
+</project>
