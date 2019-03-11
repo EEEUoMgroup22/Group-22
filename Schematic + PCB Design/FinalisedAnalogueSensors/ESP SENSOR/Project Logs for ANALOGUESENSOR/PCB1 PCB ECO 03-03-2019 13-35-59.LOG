@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=Net5V/GND_1 Pin=5V/GND-1
+Removed Pin From Net: NetName=Net5V/GND_2 Pin=5V/GND-2
+Removed Pin From Net: NetName=NetDAR0_6 Pin=LEDTOGGLE-1
+Removed Pin From Net: NetName=NetDAR0_5 Pin=LEDTOGGLE-2
+Removed Pin From Net: NetName=NetDAR0_4 Pin=LEDTOGGLE-3
+Removed Pin From Net: NetName=NetDAR0_3 Pin=LEDTOGGLE-4
+Removed Pin From Net: NetName=NetDAR0_2 Pin=LEDTOGGLE-5
+Removed Pin From Net: NetName=NetDAR0_1 Pin=LEDTOGGLE-6
+Removed Member From Class: ClassName=Sheet1 Member=5V/GND
+Change Component DesignItemId : Designator=LEDTOGGLE Old DesignItemId=Header 6 New DesignItemId=Header 8
+Change Component Footprint: Designator=LEDTOGGLE Old Footprint=PROGRAMMING-HEADER-MICRO New Footprint=HDR1X8
+Change Component Description : Designator=LEDTOGGLE Old Description=Header, 6-Pin New Description=Header, 8-Pin
+Change Component Library : Designator=LEDTOGGLE Old Library=Integrated_Library.IntLib New Library=Miscellaneous Connectors.IntLib
+Added Pin To Net: NetName=Net5V/GND_2 Pin=LEDTOGGLE-1
+Added Pin To Net: NetName=Net5V/GND_1 Pin=LEDTOGGLE-2
+Added Pin To Net: NetName=NetDAR0_6 Pin=LEDTOGGLE-3
+Added Pin To Net: NetName=NetDAR0_5 Pin=LEDTOGGLE-4
+Added Pin To Net: NetName=NetDAR0_4 Pin=LEDTOGGLE-5
+Added Pin To Net: NetName=NetDAR0_3 Pin=LEDTOGGLE-6
+Added Pin To Net: NetName=NetDAR0_2 Pin=LEDTOGGLE-7
+Added Pin To Net: NetName=NetDAR0_1 Pin=LEDTOGGLE-8
+Change Net Name : Old Net Name=Net5V/GND_1 New Net Name=NetDAR0_8
+Change Net Name : Old Net Name=Net5V/GND_2 New Net Name=NetDAR0_9
